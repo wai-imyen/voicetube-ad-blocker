@@ -1,5 +1,5 @@
 // Remove ads
-var adElement = document.getElementsByClassName('wrapper')[0].nextElementSibling;
+var adElement = document.getElementsByClassName('promo-content')[0].parentElement;
 if(adElement) {
   adElement.remove();
 }
